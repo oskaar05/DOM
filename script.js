@@ -15,10 +15,9 @@ console.dir(document);
 let h2=document.getElementsByTagName*/
 //id #
 //class .
-console.log(document.querySelector("elso a"));
+/*console.log(document.querySelector("elso a"));
 let elsolink = document.querySelector("#elso a");
-elsolink.style.color = "red";
-
-console.log(document.querySelector("elso p"));
-let elsolink = document.querySelector("#elso p");
-elsolink.style.color = "red";
+elsolink.style.color = "red";/*/
+let paragraf = document.querySelector("masodik p");
+console.log(paragraf.previousElementSibling);
+paragraf.style.color = "mediumseagreen";
